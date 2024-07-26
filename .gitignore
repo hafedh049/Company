@@ -11,6 +11,11 @@ pubspec.lock
 # If you don't generate documentation locally you can remove this line.
 doc/api/
 
+assets/videos/imports/__pycache__/
+assets/videos/imports/media/Tex/
+assets/videos/imports/media/texts/
+assets/videos/imports/media/videos/imports/1080p60/partial_movie_files/
+
 # dotenv environment variables file
 .env*
 

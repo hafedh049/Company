@@ -1,0 +1,228 @@
+[
+    {
+        "NAME": "PCAP",
+        "DESCRIPTION": "The PCAP™ certification focuses on the Object-Oriented Programming approach to Python, and shows that the individual is familiar with the more advanced aspects of programming, including the essentials of OOP, the essentials of modules and packages, the exception handling mechanism in OOP, advanced operations on strings ...",
+        "DOCUMENTATION": "",
+        "BACKGROUND": "python.jpg",
+        "DUMPS": [],
+        "VIDEOS": [
+            {
+                "MODULE": "Section 1: Modules and Packages (12%)",
+                "DESCRIPTION": "Objectives covered by the block ( 6 exam items )",
+                "CHILDREN": [
+                    {
+                        "BLOCK": "1.1 – Import and use modules and packages",
+                        "DESCRIPTIONS": [
+                            "• import variants: import, from import, import as, import *",
+                            "• advanced qualifying for nested modules",
+                            "• the dir() function",
+                            "• the sys.path variable"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "1.2 – Perform evaluations using the math module",
+                        "DESCRIPTIONS": [
+                            "• functions: ceil(), floor(), trunc(), factorial(), hypot(), sqrt()"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "1.3 – Generate random values using the random module",
+                        "DESCRIPTIONS": [
+                            "• functions: random(), seed(), choice(), sample()"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "1.4 – Discover host platform properties using the platform module",
+                        "DESCRIPTIONS": [
+                            "• functions: platform(), machine(), processor(), system(), version(), python_implementation(), python_version_tuple()"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "1.5 – Create and use user-defined modules and packages",
+                        "DESCRIPTIONS": [
+                            "• idea and rationale",
+                            "• the __pycache__ directory",
+                            "• the __name__ variable",
+                            "• public and private variables",
+                            "• the __init__.py file",
+                            "• searching for/through modules/packages",
+                            "• nested packages vs. directory trees"
+                        ],
+                        "CHILDREN": []
+                    }
+                ]
+            },
+            {
+                "MODULE": "Section 2: Exceptions (14%)",
+                "DESCRIPTION": "Objectives covered by the block ( 5 exam items )",
+                "CHILDREN": [
+                    {
+                        "BLOCK": "2.1 – Handle errors using Python-defined exceptions",
+                        "DESCRIPTIONS": [
+                            "• except, except:-except, except:-else: , except (e1, e2)",
+                            "• the hierarchy of exceptions",
+                            "• raise, raise ex",
+                            "• assert",
+                            "• event classes",
+                            "• except E as e",
+                            "• the arg property"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "2.2 – Extend the Python exceptions hierarchy with selfdefined exceptions",
+                        "DESCRIPTIONS": [
+                            "• self-defined exceptions",
+                            "• defining and using self-defined exceptions"
+                        ],
+                        "CHILDREN": []
+                    }
+                ]
+            },
+            {
+                "MODULE": "Section 3: Strings (18%)",
+                "DESCRIPTION": "Objectives covered by the block ( 8 exam items )",
+                "CHILDREN": [
+                    {
+                        "BLOCK": "3.1 – Understand machine representation of characters",
+                        "DESCRIPTIONS": [
+                            "• encoding standards: ASCII, UNICODE, UTF-8, code points, escape sequences"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "3.2 – Operate on strings",
+                        "DESCRIPTIONS": [
+                            "• functions: ord(), chr()",
+                            "• indexing, slicing, immutability",
+                            "• iterating through strings, concatenating, multiplying, comparing (against strings and numbers)",
+                            "• operators: in, not in"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "3.3 – Employ built-in string methods",
+                        "DESCRIPTIONS": [
+                            "• methods: .isxxx(), .join(), .split(), .sort(), sorted(), .index(), .find(), .rfind()"
+                        ],
+                        "CHILDREN": []
+                    }
+                ]
+            },
+            {
+                "MODULE": "Section 4: Object-Oriented Programming (34%)",
+                "DESCRIPTION": "Objectives covered by the block ( 12 exam items )",
+                "CHILDREN": [
+                    {
+                        "BLOCK": "4.1 – Understand the Object-Oriented approach",
+                        "DESCRIPTIONS": [
+                            "• ideas and notions: class, object, property, method, encapsulation, inheritance, superclass, subclass, identifying class components"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "4.2 – Employ class and object properties",
+                        "DESCRIPTIONS": [
+                            "• instance vs. class variables: declarations and initializations",
+                            "• the __dict__ property (objects vs. classes)",
+                            "• private components (instances vs. classes)",
+                            "• name mangling"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "4.3 – Equip a class with methods",
+                        "DESCRIPTIONS": [
+                            "• declaring and using methods",
+                            "• the self parameter"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "4.4 – Discover the class structure",
+                        "DESCRIPTIONS": [
+                            "• introspection and the hasattr() function (objects vs classes)",
+                            "• properties: __name__, __module__ , __bases__"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "4.5 – Build a class hierarchy using inheritance",
+                        "DESCRIPTIONS": [
+                            "• single and multiple inheritance",
+                            "• the isinstance() function",
+                            "• overriding",
+                            "• operators",
+                            "• not is, is",
+                            "• polymorphism",
+                            "• overriding the __str__() method",
+                            "• diamonds"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "4.6 – Construct and initialize objects",
+                        "DESCRIPTIONS": [
+                            "• declaring and invoking constructors"
+                        ],
+                        "CHILDREN": []
+                    }
+                ]
+            },
+            {
+                "MODULE": "Section 5: Miscellaneous (22%)",
+                "DESCRIPTION": "Scope: List Comprehensions, Lambdas, Closures, and I/O Operations\nObjectives covered by the block ( 9 exam items )",
+                "CHILDREN": [
+                    {
+                        "BLOCK": "5.1 – Build complex lists using list comprehension",
+                        "DESCRIPTIONS": [
+                            "• list comprehensions: the if operator, nested comprehensions"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "5.2 – Embed lambda functions into the code",
+                        "DESCRIPTIONS": [
+                            "• lambdas: defining and using lambdas",
+                            "• self-defined functions taking lambdas as arguments",
+                            "• functions: map(), filter()"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "5.3 – Define and use closures",
+                        "DESCRIPTIONS": [
+                            "• closures: meaning and rationale",
+                            "• defining and using closures"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "5.4 – Understand basic Input/Output terminology",
+                        "DESCRIPTIONS": [
+                            "• I/O modes",
+                            "• predefined streams",
+                            "• handles vs. streams",
+                            "• text vs. binary modes"
+                        ],
+                        "CHILDREN": []
+                    },
+                    {
+                        "BLOCK": "5.5 – Perform Input/Output operations",
+                        "DESCRIPTIONS": [
+                            "• the open() function",
+                            "• the errno variable and its values",
+                            "• functions: close(), .read(), .write(), .readline(), readlines()",
+                            "• using bytearray as input/output buffer"
+                        ],
+                        "CHILDREN": []
+                    }
+                ]
+            }
+        ]
+    }
+]
