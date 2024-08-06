@@ -2,9 +2,86 @@
     {
         "NAME": "PCAP",
         "DESCRIPTION": "The PCAP™ certification focuses on the Object-Oriented Programming approach to Python, and shows that the individual is familiar with the more advanced aspects of programming, including the essentials of OOP, the essentials of modules and packages, the exception handling mechanism in OOP, advanced operations on strings ...",
-        "DOCUMENTATION": "",
         "BACKGROUND": "python.jpg",
-        "DUMPS": [],
+        "DUMPS": [
+            {
+                "pin": false,
+                "question": "What will be the value of the i variable when the while e loop finishes its execution?",
+                "code": "i = 0\nwhile i != 0:\n\ti = i - 1\nelse:\n\ti = i + 1",
+                "choices": [
+                    "1",
+                    "0",
+                    "2",
+                    "The variable becomes unavailable"
+                ],
+                "answers": [
+                    "1"
+                ],
+                "selectedAnswers": [],
+                "multiple": false,
+                "notes": []
+            },
+            {
+                "pin": false,
+                "question": "And operator in python is able to perform bitwise shifts is coded as",
+                "code": "",
+                "choices": [
+                    "-",
+                    "++",
+                    "<<",
+                    ">>"
+                ],
+                "answers": [
+                    "<<",
+                    ">>"
+                ],
+                "selectedAnswers": [],
+                "multiple": true,
+                "notes": [
+                    "a >> b <=> a * 2^b",
+                    "a >> b <=> a / 2^b (INTEGER DIVISION)"
+                ]
+            },
+            {
+                "pin": false,
+                "question": "What will the value of the i variable be when the following loop finishes its execution?",
+                "code": "for i in range(10):\n\tpass",
+                "choices": [
+                    "10",
+                    "The variable becomes unavailable",
+                    "11",
+                    "9"
+                ],
+                "answers": [
+                    "9"
+                ],
+                "selectedAnswers": [],
+                "multiple": false,
+                "notes": [
+                    "range(a,b) = a, ..., b-1",
+                    "'pass' is a 'null' statement that does nothing"
+                ]
+            },
+            {
+                "pin": false,
+                "question": "The following expression '1 + -2' is:",
+                "code": "",
+                "choices": [
+                    "equal to 1",
+                    "invalid",
+                    "equal to 2",
+                    "equal to -1"
+                ],
+                "selectedAnswers": [],
+                "multiple": false,
+                "answers": [
+                    "equal to -1"
+                ],
+                "notes": [
+                    "'-' is both binary and unary operator"
+                ]
+            }
+        ],
         "VIDEOS": [
             {
                 "MODULE": "Section 1: Modules and Packages (12%)",
@@ -18,7 +95,12 @@
                             "• the dir() function",
                             "• the sys.path variable"
                         ],
-                        "CHILDREN": []
+                        "CHILDREN": [
+                            "assets/videos/imports/media/videos/imports/1080p60/Imports.mp4",
+                            "assets/videos/imports/media/videos/imports/1080p60/Imports.mp4",
+                            "assets/videos/imports/media/videos/imports/1080p60/Imports.mp4",
+                            "assets/videos/imports/media/videos/imports/1080p60/Imports.mp4"
+                        ]
                     },
                     {
                         "BLOCK": "1.2 – Perform evaluations using the math module",

@@ -1,12 +1,15 @@
 import 'dart:convert';
 import 'dart:ui';
 
+import 'package:company/dumps_viewer.dart';
 import 'package:company/utils/helpers/error.dart';
 import 'package:company/utils/helpers/wait.dart';
 import 'package:company/utils/shared.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'video_displayer.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -67,11 +70,33 @@ class _HomeState extends State<Home> {
                               spacing: 20,
                               children: <Widget>[
                                 GestureDetector(
-                                  onTap: () {},
-                                  child: Chip(
-                                    color: WidgetStatePropertyAll<Color>(lightGreen.withOpacity(.2)),
-                                    avatar: const CircleAvatar(radius: 12, backgroundColor: lightGreen),
-                                    label: Text("DOCUMENTATION", style: GoogleFonts.itim(fontSize: 16, color: white, fontWeight: FontWeight.w500)),
+                                  onTap: () => Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => DumpsViewer(dumps: data[index]["DUMPS"].cast<Map<String, dynamic>>()))),
+                                  child: Container(
+                                    padding: padding8,
+                                    decoration: BoxDecoration(color: red.withOpacity(.2), borderRadius: BorderRadius.circular(5)),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: <Widget>[
+                                        const CircleAvatar(radius: 10, backgroundColor: red),
+                                        const SizedBox(width: 10),
+                                        Text("DUMPS", style: GoogleFonts.itim(fontSize: 16, color: white, fontWeight: FontWeight.w500)),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                                GestureDetector(
+                                  onTap: () => Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => VideoDisplayer(data: data[index]["VIDEOS"].cast<Map<String, dynamic>>()))),
+                                  child: Container(
+                                    padding: padding8,
+                                    decoration: BoxDecoration(color: lightGreen.withOpacity(.2), borderRadius: BorderRadius.circular(5)),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: <Widget>[
+                                        const CircleAvatar(radius: 10, backgroundColor: lightGreen),
+                                        const SizedBox(width: 10),
+                                        Text("VIDEOS", style: GoogleFonts.itim(fontSize: 16, color: white, fontWeight: FontWeight.w500)),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ],

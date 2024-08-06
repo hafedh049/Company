@@ -10,6 +10,7 @@ const Color twentyFour = Color.fromRGBO(36, 36, 36, 1);
 const Color dark = Colors.black;
 const Color white = Colors.white;
 const Color transparent = Colors.transparent;
+const Color blue = Colors.lightBlueAccent;
 
 const EdgeInsets padding4 = EdgeInsets.all(4);
 const EdgeInsets padding8 = EdgeInsets.all(8);

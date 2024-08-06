@@ -17,6 +17,12 @@ dependencies:
   icons_plus: ^5.0.0
   google_fonts: ^6.2.1
   url_launcher: ^6.3.0
+  video_player: ^2.9.1
+  flutter_highlight: ^0.7.0
+  slide_countdown: ^1.6.1
+  flutter_math_fork: ^0.7.2
+  linear_progress_bar: ^1.1.2
+  primer_progress_bar: ^0.4.2
 
 dev_dependencies:
   flutter_test:
@@ -31,5 +37,10 @@ flutter:
     - assets/lotties/
     - assets/images/
     - assets/jsons/
-    - assets/videos/
-    - assets/videos/imports/
+    #    - assets/videos/
+    #    - assets/videos/imports/
+    #    - assets/videos/imports/media/
+    #    - assets/videos/imports/media/
+    #    - assets/videos/imports/media/videos/
+    #    - assets/videos/imports/media/videos/imports/
+    - assets/videos/imports/media/videos/imports/1080p60/
